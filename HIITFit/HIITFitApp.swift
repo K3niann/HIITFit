@@ -2,16 +2,16 @@
 //  HIITFitApp.swift
 //  HIITFit
 //
-//  Created by Keniann Sierra on 1/25/25.
+//  Created by Keniann Sierra on 1/22/25.
 //
 
 import SwiftUI
 
 @main
 struct HIITFitApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
+  }
 }

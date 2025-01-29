@@ -7,12 +7,11 @@
 
 import SwiftUI
 
-struct ImageExtension: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-#Preview {
-    ImageExtension()
+extension Image {
+  func resizedToFill(width: CGFloat, height: CGFloat) -> some View {
+    self
+      .resizable()
+      .aspectRatio(contentMode: .fill)
+      .frame(width: width, height: height)
+  }
 }
