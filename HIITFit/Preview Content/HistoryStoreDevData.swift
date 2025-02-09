@@ -9,7 +9,7 @@
 import Foundation
 
 extension HistoryStore {
-  mutating func createDevData() {
+  func createDevData() {
     // Development data
     exerciseDays = [
       ExerciseDay(
