@@ -7,8 +7,6 @@
 
 import Foundation
 
-import Foundation
-
 extension Date {
 
   func formatted(as format: String) -> String {
